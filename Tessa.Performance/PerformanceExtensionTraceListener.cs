@@ -59,7 +59,7 @@ namespace Tessa.Performance
                     msg.Properties.Add("MethodName", methodName);
                     msg.Properties.Add("ClassName", className);
                     msg.Properties.Add("Elapsed", elapsedMilliseconds);
-                    logger.Info(msg);
+                    logger.Log(msg);
                 }
             }
         }
